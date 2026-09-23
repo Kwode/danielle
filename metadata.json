@@ -1,0 +1,6 @@
+{
+  "name": "Happy Birthday Danielle Sarah Festus",
+  "description": "A personalized celebration website for Danielle Sarah Festus with pink blush aesthetics, floating confetti, music player, photo gallery, video vault, heartfelt letter, and interactive birthday cake.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
