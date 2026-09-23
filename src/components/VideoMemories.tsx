@@ -770,7 +770,7 @@ export const VideoMemories: React.FC = () => {
                       ) : (
                         <>
                           <Globe className="w-3.5 h-3.5" />
-                          <span>Upload & Sync Worldwide ✨</span>
+                          <span>Upload✨</span>
                         </>
                       )}
                     </button>
