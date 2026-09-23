@@ -313,7 +313,7 @@ export const VideoMemories: React.FC = () => {
 
       triggerCelebration();
       showToast(
-        'Video uploaded to Cloudinary & synced worldwide! 🎬✨'
+        'Video uploaded! 🎬✨'
       );
 
       // Scroll to new video at start
@@ -455,7 +455,7 @@ export const VideoMemories: React.FC = () => {
                           <Loader2 className="w-8 h-8 text-pink-400 animate-spin" />
                           <p className="text-xs font-semibold text-white">Loading shared video...</p>
                           <span className="text-[10px] text-pink-200 bg-pink-900/60 px-2 py-0.5 rounded-full">
-                            Synced via cloud
+                            -
                           </span>
                         </div>
                       </div>
@@ -512,7 +512,7 @@ export const VideoMemories: React.FC = () => {
                         {vid.isCustom && (
                           <span className="flex items-center gap-1 bg-pink-900/60 text-pink-200 px-1.5 py-0.5 rounded-full border border-pink-500/20">
                             <Globe className="w-2.5 h-2.5" />
-                            Synced
+                            .
                           </span>
                         )}
                       </div>
