@@ -584,7 +584,6 @@ export const VideoMemories: React.FC = () => {
                     </h3>
                     <p className="text-xs text-neutral-500 flex items-center gap-1">
                       <Globe className="w-3 h-3 text-pink-600 inline" />
-                      <span>Syncs to cloud so anyone anywhere can see & play it</span>
                     </p>
                   </div>
                 </div>
@@ -681,27 +680,7 @@ export const VideoMemories: React.FC = () => {
                     <p className="text-[10px] text-neutral-500">
                       This label will be displayed directly on the video card for Danielle and all visitors.
                     </p>
-
-                    {/* Quick-Pick Suggested Label Chips */}
-                    <div className="flex flex-wrap gap-1.5 pt-1">
-                      {[
-                        '🎂 Birthday Toast',
-                        '💃 Dancing Queen',
-                        '✨ Sweet Memory',
-                        '❤️ With Danielle',
-                        '🥂 Celebration',
-                      ].map((suggestion) => (
-                        <button
-                          key={suggestion}
-                          type="button"
-                          disabled={isProcessingVideo}
-                          onClick={() => setNewVideoTitle(suggestion)}
-                          className="text-[10px] px-2.5 py-1 rounded-full bg-pink-50 hover:bg-pink-100 text-pink-700 border border-pink-200 transition-colors cursor-pointer font-medium disabled:opacity-50"
-                        >
-                          {suggestion}
-                        </button>
-                      ))}
-                    </div>
+  
                   </div>
 
                   {/* Optional Memory Note / Caption */}
