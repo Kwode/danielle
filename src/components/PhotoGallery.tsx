@@ -411,7 +411,7 @@ export const PhotoGallery: React.FC = () => {
                   {isUploading && uploadProgress > 0 && (
                     <div className="space-y-1.5 p-3 bg-pink-50 rounded-xl border border-pink-200">
                       <div className="flex justify-between text-[11px] font-semibold text-pink-900">
-                        <span>Uploading to Cloudinary...</span>
+                        <span>Uploading...</span>
                         <span>{uploadProgress}%</span>
                       </div>
                       <div className="w-full bg-pink-200 rounded-full h-2 overflow-hidden">
@@ -439,7 +439,7 @@ export const PhotoGallery: React.FC = () => {
                       {isUploading ? (
                         <>
                           <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                          <span>Saving to Cloud...</span>
+                          <span>Saving...</span>
                         </>
                       ) : (
                         <span>Add Picture 💖</span>
