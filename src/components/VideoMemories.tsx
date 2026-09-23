@@ -512,7 +512,6 @@ export const VideoMemories: React.FC = () => {
                         {vid.isCustom && (
                           <span className="flex items-center gap-1 bg-pink-900/60 text-pink-200 px-1.5 py-0.5 rounded-full border border-pink-500/20">
                             <Globe className="w-2.5 h-2.5" />
-                            .
                           </span>
                         )}
                       </div>
@@ -582,9 +581,6 @@ export const VideoMemories: React.FC = () => {
                     <h3 className="font-serif text-lg font-bold text-neutral-900">
                       Upload Video from Device
                     </h3>
-                    <p className="text-xs text-neutral-500 flex items-center gap-1">
-                      <Globe className="w-3 h-3 text-pink-600 inline" />
-                    </p>
                   </div>
                 </div>
 
@@ -744,11 +740,10 @@ export const VideoMemories: React.FC = () => {
                       {isProcessingVideo ? (
                         <>
                           <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                          <span>Syncing... {uploadProgress}%</span>
+                          <span>Uploading... {uploadProgress}%</span>
                         </>
                       ) : (
                         <>
-                          <Globe className="w-3.5 h-3.5" />
                           <span>Upload✨</span>
                         </>
                       )}
